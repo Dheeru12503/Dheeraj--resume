@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin:0;
+    padding: 0;
+    background-color: #caf0f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    background: #1d2d44;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    
+}
+#education{
+    margin-top: 200px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.2rem 0;
+    font-size: 1.2rem;
+}
+
+section {
+    width: 80%;
+    padding: 2rem;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #1d2d44;
+    color: #fff;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+section:hover{
+    background-color: #bcd4e6;
+}
+
+ul li:hover{
+    background: #adb5bd;
+}
